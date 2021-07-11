@@ -200,7 +200,7 @@
             }),
             new QuestionModel({
               id: 'generale_3',
-              title: 'Le premier humain à être allé dans l\'espace était Neil Armstrong.',
+              title: 'Neil Armstrong fut le premier astronaute humain de l\'histoire.',
               helpText: 'Culture Générale',
               type: QuestionType.MultipleChoice,
               multiple: false,
@@ -247,7 +247,7 @@
                   value: '1'
                 }),
                 new ChoiceOption({
-                  label: 'L\'ensemble des 5 plus grandes entreprises tech américaine',
+                  label: 'L\'ensemble des 5 plus grandes entreprises tech américaines',
                   value: '2'
                 }),
                 new ChoiceOption({
@@ -258,7 +258,7 @@
             }),
             new QuestionModel({
               id: 'generale_6',
-              title: 'Les processeurs M1 des nouveaux Mac sont fabriqués par Apple, en interne.',
+              title: 'Les processeurs M1 des nouveaux Mac sont conçus par Apple, en interne.',
               helpText: 'Culture Générale',
               type: QuestionType.MultipleChoice,
               multiple: false,
@@ -382,7 +382,7 @@
             }),
             new QuestionModel({
               id: 'generale_12',
-              title: 'Lesquelles de ces marques produisent des drones ?',
+              title: 'Sélectionnez les 2 marques qui produisent des drones :',
               helpText: 'Informatique, 1 ou plusieurs réponses.',
               type: QuestionType.MultipleChoice,
               multiple: true,
@@ -415,7 +415,7 @@
             new QuestionModel({
               id: 'info_1',
               helpText: 'Informatique.',
-              title: 'Quel est le composant d\'un ordinateur dédié aux calculs ?',
+              title: 'Dans un ordinateur, quel est le composant dédié aux calculs ?',
               type: QuestionType.MultipleChoice,
               required: true,
               multiple: false,
@@ -433,14 +433,14 @@
                   value: '3'
                 }),
                 new ChoiceOption({
-                  label: 'Le microprocesseur',
+                  label: 'Le processeur',
                   value: '4'
                 })
               ]
             }),
             new QuestionModel({
               id: 'info_2',
-              title: 'Combien de chiffres composent au maximum une adresse IP ?',
+              title: 'Au maximum, combien de chiffres composent une adresse IP ?',
               helpText: 'Informatique',
               type: QuestionType.MultipleChoice,
               required: true,
@@ -463,7 +463,7 @@
 
             new QuestionModel({
               id: 'info_3',
-              title: 'Pour éviter de consommer de l\'énergie inutilement je peux régler sur un ordinateur la durée de...',
+              title: 'Pour éviter de gaspiller l\'énergie de mon ordinateur, je peux régler :',
               helpText: 'Informatique',
               type: QuestionType.MultipleChoice,
               required: true,
@@ -478,18 +478,18 @@
                   value: '2'
                 }),
                 new ChoiceOption({
-                  label: 'La tension d\'alimentation (en volts) en la diminuant',
+                  label: 'La tension d\'alimentation en la diminuant',
                   value: '3'
                 }),
                 new ChoiceOption({
-                  label: 'La mise en veille (si aucune action n\'est faite sur l\'ordinateur)',
+                  label: 'La mise en veille',
                   value: '4'
                 })
               ]
             }),
             new QuestionModel({
               id: 'info_4',
-              title: 'Quels sont aujourd\'hui les 2 architectures de microprocesseur les plus répandu ?',
+              title: 'Quelles sont aujourd\'hui les 2 architectures de microprocesseur les plus répandues ?',
               type: QuestionType.MultipleChoice,
               multiple: true,
               helpText: 'Informatique 1 ou plusieurs réponses',
@@ -541,7 +541,7 @@
             }),
             new QuestionModel({
               id: 'info_6',
-              title: 'La nouvelle puce M1 d\'Apple est composé de...',
+              title: 'La nouvelle puce M1 d\'Apple est composée de...',
               type: QuestionType.MultipleChoice,
               multiple: false,
               helpText: 'Informatique',
@@ -563,7 +563,7 @@
             }),
             new QuestionModel({
               id: 'info_7',
-              title: 'Le cache du navigateur internet permet...',
+              title: 'Le cache du navigateur permet...',
               type: QuestionType.MultipleChoice,
               multiple: false,
               helpText: 'Informatique',
@@ -612,7 +612,7 @@
             new QuestionModel({
               id: 'techno_2',
               title: 'Apple a annoncé en juin l\'amélioration d\'Apple Music avec la prise en charge de nouveaux formats audios.' +
-                'Quel format ne fait pas parti de ces technologies ?',
+                'Quel format n\'en fait pas partie ?',
               helpText: 'Technologies & logiciels',
               type: QuestionType.MultipleChoice,
               multiple: false,
