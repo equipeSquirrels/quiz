@@ -60,7 +60,7 @@
         <p class="text-success" v-if="submitted && score < 15">"Vous avez obtenu {{ score }} sur {{ total }}. Vous n'êtes pas éligible à devenir testeur."</p>
         <p class="text-success" v-else-if="submitted && score < 20">"Vous avez obtenu {{ score }} sur {{ total }}. Dommage, vous y êtiez presque!"</p>
         <p class="text-success" v-else-if="submitted && score <= total">"Vous avez obtenu {{ score }} sur {{ total }}. Félicitation ! Bienvenue dans la famille des testeurs de Résonance
-        Vous êtes plutôt dans la team technologie et logiciel."</p>
+        Vous êtes dans la team technologie et logiciel."</p>
 
       </template>
     </flow-form>
